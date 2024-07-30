@@ -1,0 +1,29 @@
+#candi{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: black solid 1px;
+    border-radius: 15px;
+    align-items: center;
+    margin: 1%;
+    padding: 1%;
+    width: 800px;
+}
+#candi > button {
+    border: none;
+    border-radius: 15px;
+    padding: 1%;
+}
+#candi > button:hover{
+    cursor: pointer;
+}
+#lst{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#dum {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
